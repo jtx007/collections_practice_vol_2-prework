@@ -33,13 +33,9 @@ end
 def count_elements(array)
   new_array = []
   array.each do |element|
-    if !counter[:name].nil?
-    counter[:name] = element[:name]
-    counter[:count] += 1 
-    else
-      count
-    end
+    if new_array.contains? element
     binding.pry
+    end
   end
   new_array
 end
