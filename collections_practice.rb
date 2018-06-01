@@ -67,6 +67,8 @@ def organize_schools(school_hash)
   new_hash = {}
   school_hash.each do |school, location_hash|
     location_hash.each do |location_key, city|
+      if new_hash[city]
+        
     binding.pry
     end
   end
