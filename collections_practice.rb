@@ -52,5 +52,6 @@ def merge_data(arr1,arr2)
 	merged
 end
 
-def find_cool(array)
+def find_cool(cool)
+end
   
