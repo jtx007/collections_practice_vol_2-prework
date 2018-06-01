@@ -64,4 +64,6 @@ def find_cool(cool)
 end
 
 def organize_schools(school_hash)
+  school_hash.each do |school, location|
+    binding.pry
 end
