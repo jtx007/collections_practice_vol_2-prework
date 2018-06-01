@@ -58,7 +58,7 @@ def find_cool(cool)
     if element[:temperature] == "cool"
       cool_hash = element
     end
-    cool_hash
   end 
+  cool_hash
 end
   
