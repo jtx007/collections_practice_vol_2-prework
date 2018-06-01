@@ -53,12 +53,13 @@ def merge_data(arr1,arr2)
 end
 
 def find_cool(cool)
-  cool_hash = {}
+  
+  new_array = []
   cool.each do |element|
     if element[:temperature] == "cool"
-      cool_hash = element
+      new_array element
     end
   end 
-  cool_hash
+   
 end
   
