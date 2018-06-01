@@ -33,7 +33,7 @@ end
 def count_elements(array)
   new_array = []
   array.each do |element|
-    if new_array.contains? element
+    if new_array.include? element
     binding.pry
     end
   end
