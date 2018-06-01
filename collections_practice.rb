@@ -33,11 +33,11 @@ end
 def count_elements(array)
   new_hash = {}
   array.each do |element|
-  if new_hash[element[:name]]
+    if new_hash[element[:name]]
     new_hash[element[:name]][:count] += 1
   else
     new_hash[element[:name]] = {:name => element[:name], :count => 1}
-    
+    end  
   end
   new_hash.values
 end
