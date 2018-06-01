@@ -63,4 +63,6 @@ def find_cool(cool)
   new_array
 end
 
-def
+def organize_schools(array)
+binding.pry
+end
