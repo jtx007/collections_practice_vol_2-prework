@@ -37,7 +37,6 @@ def count_elements(array)
       if el[:name] == element[:name]
         el[:count] += 1 
       end
-    binding.pry
     end
   end
   
