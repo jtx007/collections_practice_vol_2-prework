@@ -31,16 +31,15 @@ array.delete_if { |obj| !(obj.is_a? String) }
 end
 
 def count_elements(array)
-  counter = {}
   new_array = []
   array.each do |element|
-       binding.pry
- if !counter[:name].nil?
+    if !counter[:name].nil?
     counter[:name] = element[:name]
     counter[:count] += 1 
     else
       count
     end
+    binding.pry
   end
-  counter
+  new_array
 end
