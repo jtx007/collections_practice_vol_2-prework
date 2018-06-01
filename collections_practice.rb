@@ -65,7 +65,7 @@ end
 
 def organize_schools(school_hash)
   school_hash.each do |school, location_hash|
-    location.each do |location_key, city|
+    location_hash.each do |location_key, city|
     
     end
   end
