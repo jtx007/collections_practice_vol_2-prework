@@ -69,6 +69,6 @@ def organize_schools(school_hash)
     location_hash[:location]
         
     binding.pry
-    end
+  
   end
 end
