@@ -66,7 +66,7 @@ end
 def organize_schools(school_hash)
   new_hash = {}
   school_hash.each do |school, location_hash|
-    location_hash[:city]
+    location_hash[:city]]
         
     binding.pry
     end
