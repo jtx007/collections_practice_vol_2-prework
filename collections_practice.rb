@@ -34,7 +34,8 @@ def count_elements(array)
   new_array = []
   array.each do |element|
     if new_array.include? do |el|
-      if el == element
+      if el[:name] == element[:name]
+        
     binding.pry
       end
     end
