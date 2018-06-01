@@ -62,4 +62,5 @@ def find_cool(cool)
   end 
   new_array
 end
-  
+
+def
