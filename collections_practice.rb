@@ -32,10 +32,14 @@ end
 
 def count_elements(array)
   counter = {}
+  new_array = []
   array.each do |element|
-    if 
+    if !counter[:name].nil?
     counter[:name] = element[:name]
     counter[:count] += 1 
+    else
+      count
+    end
     binding.pry
   end
   counter
