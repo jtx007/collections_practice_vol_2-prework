@@ -35,5 +35,5 @@ def count_elements(array)
   array.each do |element|
     counter[element] += 1
   end
-
+  counter
 end
