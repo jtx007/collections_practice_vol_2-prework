@@ -64,5 +64,4 @@ def find_cool(cool)
 end
 
 def organize_schools(school_hash)
-binding.pry
 end
