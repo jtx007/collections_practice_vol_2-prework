@@ -31,8 +31,9 @@ array.delete_if { |obj| !(obj.is_a? String) }
 end
 
 def count_elements(array)
-  counter = Hash.new 0
+  counter = {}
   array.each do |element|
+    if 
     counter[:name] = element[:name]
     counter[:count] += 1 
     binding.pry
