@@ -31,15 +31,15 @@ array.delete_if { |obj| !(obj.is_a? String) }
 end
 
 def count_elements(array)
-  new_array = []
+  new_hash = {}
   array.each do |element|
-    new_array.each do |el|
-      if el[:name] == element[:name]
-        el[:count] += 1 
-      end
-    end
+  if new_hash[element[:name]]
+    new_hash[element[:name]][:count] += 1
+  else
+    new_hash[element[:name]] = {:name => element[:name], :count => 1}
+    
   end
-  
+  new_hash.values
 end
 
 def merge_data(arr1,arr2)
