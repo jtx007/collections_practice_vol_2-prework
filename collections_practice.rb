@@ -54,7 +54,7 @@ end
 
 def find_cool(cool)
   cool.each do |element|
-    if element
+    if element[:]
   binding.pry
   
   end 
