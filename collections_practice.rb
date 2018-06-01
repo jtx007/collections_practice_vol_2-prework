@@ -41,4 +41,6 @@ def count_elements(array)
   end
   
 end
+
+def merge_data()
   
