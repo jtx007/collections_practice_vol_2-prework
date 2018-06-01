@@ -57,6 +57,7 @@ def find_cool(cool)
   cool.each do |element|
     if element[:temperature] == "cool"
       cool_hash = element
+      binding.pry
     end
     cool_hash
   end 
